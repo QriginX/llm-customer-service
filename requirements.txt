@@ -1,0 +1,6 @@
+streamlit>=1.32
+openai>=1.30
+numpy
+# 可选：模型级注入检测（会额外安装 torch，体积较大）
+# 想启用时取消注释：pip install llm-guard
+# llm-guard
